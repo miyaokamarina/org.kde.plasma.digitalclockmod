@@ -49,7 +49,6 @@ Item {
         Components.Label  {
             id: timeLabel
 
-            font.family: clockFontFamily
             font.pixelSize: clockFontSize
             height: clockLineHeight
             anchors.right: splitterBar.left
@@ -78,7 +77,6 @@ Item {
         Components.Label {
             id: dateLabel
 
-            font.family: clockFontFamily
             font.pixelSize: clockFontSize
             height: clockLineHeight
             anchors.left: splitterBar.right

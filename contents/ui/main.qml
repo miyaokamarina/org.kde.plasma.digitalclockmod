@@ -23,7 +23,6 @@ import org.kde.kquickcontrolsaddons 2.0
 
 Item {
     // region Configuration
-    readonly property string clockFontFamily: 'Noto Sans Light'
     readonly property int    clockFontSize:   13
     readonly property int    clockLineHeight: 20
 
